@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+!index.js
+!LICENSE.txt
+!package.json
+!README.md
+
+!lib/
+!lib/**
+
+!test/
+!test/**

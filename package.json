@@ -1,0 +1,28 @@
+{
+  "name": "@add1ed/std-lib",
+  "version": "0.6.0",
+  "description": "A collection of useful functions, including minimised version of lodash and axios.",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "zUnit"
+  },
+  "repository": "github:add1ed/std-lib",
+  "author": "add1ed",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "4.3.4",
+    "http-errors": "2.0.0",
+    "lru-cache": "6.0.0"
+  },
+  "devDependencies": {
+    "zunit": "4.0.2"
+  },
+  "zUnit": {
+    "exit": true,
+    "pollute": true
+  }
+}
